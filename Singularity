@@ -1,6 +1,5 @@
-FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
-MAINTAINER Ian Palmer <palmer45@llnl.gov>
-
+Boostrap:docker
+From: nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 #Install ubuntu packages
 %post
