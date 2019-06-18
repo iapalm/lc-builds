@@ -25,27 +25,27 @@ apt-get update && apt-get install -y \
     libavformat-dev \
     libswscale-dev
 
-python3 -m pip uninstall pip && apt-get install python3-pip --reinstall
+python3 -m pip install --upgrade pip
 
-pip3 install ipython
-pip3 install jupyter
-pip3 install numpy==1.15.4
-pip3 install scipy
-pip3 install scikit-image
-pip3 install scikit-learn
-pip3 install dill
-pip3 install progressbar2
-pip3 install imageio
-pip3 install opencv-python
-pip3 install tqdm==4.11.2
-pip3 install protobuf
-pip3 install PyYAML
-pip3 install pandas
+python3 -m pip install ipython
+python3 -m pip install jupyter
+python3 -m pip install numpy
+python3 -m pip install scipy
+python3 -m pip install scikit-image
+python3 -m pip install scikit-learn
+python3 -m pip install dill
+python3 -m pip install progressbar2
+python3 -m pip install imageio
+python3 -m pip install opencv-python
+python3 -m pip install tqdm
+python3 -m pip install protobuf
+python3 -m pip install PyYAML
+python3 -m pip install pandas
 
 wget --no-check-certificate https://download.pytorch.org/whl/cu90/torch-0.4.0-cp35-cp35m-linux_x86_64.whl
-pip3 install torch-0.4.0-cp35-cp35m-linux_x86_64.whl
-pip3 install torchvision
-pip3 install tensorboardX
-pip3 install tifffile
+python3 -m pip install torch-0.4.0-cp35-cp35m-linux_x86_64.whl
+python3 -m pip install torchvision
+python3 -m pip install tensorboardX
+python3 -m pip install tifffile
 #pip3 install albumentations
 
