@@ -25,7 +25,7 @@ apt-get update && apt-get install -y \
     libavformat-dev \
     libswscale-dev
 
-pip3 install --upgrade pip
+python3 -m pip uninstall pip && apt-get install python3-pip --reinstall
 
 pip3 install ipython
 pip3 install jupyter
