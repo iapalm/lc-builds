@@ -41,6 +41,7 @@ python3 -m pip install tqdm
 python3 -m pip install protobuf
 python3 -m pip install PyYAML
 python3 -m pip install pandas
+python3 -m pip install pathlib
 
 wget --no-check-certificate https://download.pytorch.org/whl/cu90/torch-0.4.0-cp35-cp35m-linux_x86_64.whl
 python3 -m pip install torch-0.4.0-cp35-cp35m-linux_x86_64.whl
