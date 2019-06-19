@@ -47,5 +47,5 @@ python3 -m pip install torch-0.4.0-cp35-cp35m-linux_x86_64.whl
 python3 -m pip install torchvision
 python3 -m pip install tensorboardX
 python3 -m pip install tifffile
-#pip3 install albumentations
+python3 -m pip install albumentations
 
